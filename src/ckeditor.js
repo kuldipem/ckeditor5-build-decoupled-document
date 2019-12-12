@@ -10,6 +10,8 @@ import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import FontSize from '@ckeditor/ckeditor5-font/src/fontsize';
 import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily';
+import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor';
+import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor';
 import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
 import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter';
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
@@ -44,6 +46,8 @@ DecoupledEditor.builtinPlugins = [
 	Alignment,
 	FontSize,
 	FontFamily,
+	FontColor,
+	FontBackgroundColor,
 	Highlight,
 	UploadAdapter,
 	Autoformat,
@@ -79,6 +83,8 @@ DecoupledEditor.defaultConfig = {
 			'|',
 			'fontsize',
 			'fontfamily',
+			'fontcolor',
+			'fontbackgroundcolor',
 			'|',
 			'bold',
 			'italic',
